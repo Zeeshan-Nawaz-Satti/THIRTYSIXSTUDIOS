@@ -80,42 +80,42 @@ const Navbar = () => {
       {/* Mobile Menu */}
       <div className={`md:hidden ${isOpen ? 'block' : 'hidden'}`}>
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-        <Link to='/'>
+        <Link to='/THIRTYSIXSTUDIOS/'>
               <a href="#" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
                 Home
               </a>
               </Link>
-              <Link to='/about'>
+              <Link to='/THIRTYSIXSTUDIOS/about'>
               <a href="#" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
                 About
               </a>
               </Link>
-              <Link to='service'>
+              <Link to='/THIRTYSIXSTUDIOS/service'>
               <a href="#" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
                 Services
               </a>
               </Link>
-          <Link to='/projects'>
+          <Link to='/THIRTYSIXSTUDIOS/projects'>
               <a href="#" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
                 Projects
               </a>
               </Link>
-              <Link to='/blogs'>
+              <Link to='/THIRTYSIXSTUDIOS/blogs'>
               <a href="#" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
                 Blogs
               </a>
               </Link>
-              <Link to='/contactUs'>
+              <Link to='/THIRTYSIXSTUDIOS/contactUs'>
               <a href="#" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
                 Contact
               </a>
               </Link>
-              <Link to='/login'>
+              <Link to='/THIRTYSIXSTUDIOS/login'>
               <a href="#" className="bg-blue-500 text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-600 transition-colors">
                 Login
               </a>
               </Link>
-              <Link to='/signup'>
+              <Link to='/THIRTYSIXSTUDIOS/signup'>
               <a href="#" className="bg-blue-500 text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-600 transition-colors mt-1">
                 Sign Up
               </a>

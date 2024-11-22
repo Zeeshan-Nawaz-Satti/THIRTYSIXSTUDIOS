@@ -151,7 +151,7 @@ const Signup = () => {
 
         <p className="mt-8 text-center text-sm text-gray-400">
           Already have an account?{' '}
-          <Link to='/login'>
+          <Link to='/THIRTYSIXSTUDIOS/login'>
           <a href="#" className="font-medium text-blue-500 hover:text-blue-400">
             Login
           </a>

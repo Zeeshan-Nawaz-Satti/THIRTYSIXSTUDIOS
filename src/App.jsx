@@ -50,7 +50,7 @@ const App = () => {
 
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path="/" element={<Layout />}>
+      <Route path="/THIRTYSIXSTUDIOS/" element={<Layout />}>
         <Route path="" element={
           <div data-scroll-container ref={containerRef}>
             <Hero />
@@ -60,14 +60,14 @@ const App = () => {
             <According/>
           </div>
         } />
-        <Route path="/projects" element={<Project/>} />
-        <Route path="/blogs" element={<Blogs/>} />
-        <Route path="/blogdetail" element={<BlogDetail/>} />
-        <Route path="/about" element={<About/>} />
-        <Route path="/service" element={<Services/>} />
-        <Route path="/contactUs" element={<Contact/>} />
-        <Route path="/login" element={<Login/>} />
-        <Route path="/signup" element={<Signup/>} />
+        <Route path="/THIRTYSIXSTUDIOS/projects" element={<Project/>} />
+        <Route path="/THIRTYSIXSTUDIOS/blogs" element={<Blogs/>} />
+        <Route path="/THIRTYSIXSTUDIOS/blogdetail" element={<BlogDetail/>} />
+        <Route path="/THIRTYSIXSTUDIOS/about" element={<About/>} />
+        <Route path="/THIRTYSIXSTUDIOS/service" element={<Services/>} />
+        <Route path="/THIRTYSIXSTUDIOS/contactUs" element={<Contact/>} />
+        <Route path="/THIRTYSIXSTUDIOS/login" element={<Login/>} />
+        <Route path="/THIRTYSIXSTUDIOS/signup" element={<Signup/>} />
       </Route>
     )
   );

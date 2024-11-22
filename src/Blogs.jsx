@@ -9,7 +9,7 @@ const Blogs = () => {
           
           {/* Blog Card 1 */}
           <div className="bg-gray-800 rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition duration-300">
-            <Link to='/blogdetail'>
+            <Link to='/THIRTYSIXSTUDIOS/blogdetail'>
             <img src="https://picsum.photos/600/700" alt="Blog 1" className="w-full h-48 object-cover cursor-pointer"/>
             </Link>
             <div className="p-6">

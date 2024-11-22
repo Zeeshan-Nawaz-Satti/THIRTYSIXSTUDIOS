@@ -17,42 +17,42 @@ const Navbar = () => {
           {/* Desktop Menu */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
-              <Link to='/'>
+              <Link to='/THIRTYSIXSTUDIOS/'>
               <a href="#" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors">
                 Home
               </a>
               </Link>
-              <Link to='/about'>
+              <Link to='/THIRTYSIXSTUDIOS/about'>
               <a href="#" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors">
                 About
               </a>
               </Link>
-              <Link to='service'>
+              <Link to='/THIRTYSIXSTUDIOS/service'>
               <a href="#" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors">
                 Services
               </a>
               </Link>
-              <Link to='/projects'>
+              <Link to='/THIRTYSIXSTUDIOS/projects'>
               <a href="#" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors">
                 Projects
               </a>
               </Link>
-              <Link to='/blogs'>
+              <Link to='/THIRTYSIXSTUDIOS/blogs'>
               <a href="#" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors">
                 Blogs
               </a>
               </Link>
-              <Link to='/contactUs'>
+              <Link to='/THIRTYSIXSTUDIOS/contactUs'>
               <a href="#" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors">
                 Contact
               </a>
               </Link>
-              <Link to='/login'>
+              <Link to='/THIRTYSIXSTUDIOS/login'>
               <a href="#" className="bg-blue-500 text-white block px-3 py-2 rounded-md text-sm font-medium hover:bg-blue-600 transition-colors">
                 Login
               </a>
               </Link>
-              <Link to='/signup'>
+              <Link to='/THIRTYSIXSTUDIOS/signup'>
               <a href="#" className="bg-blue-500 text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-blue-600 transition-colors">
                 Sign Up
               </a>
